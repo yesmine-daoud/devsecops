@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/yesmine-daoud/devsecops.git', branch: 'master'
+                git url: 'https://github.com/yesmine-daoud/devsecops.git', branch: 'main'
             }
         }
 
